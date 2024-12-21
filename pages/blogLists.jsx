@@ -7,7 +7,7 @@ import config from '@/config';
 export default function BlogList() {
     const [blogs, setBlogs] = useState([]);
     const [loading, setLoading] = useState(true);
-    console.log({config})
+    // console.log({config})
 
     useEffect(() => {
         const fetchBlogs = async () => {
